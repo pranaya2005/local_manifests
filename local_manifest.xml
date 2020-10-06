@@ -4,6 +4,10 @@
            fetch="https://github.com/pranaya2005"
            revision="refs/heads/ten" />
 
+  <remote  name="pixel-gitlab"
+           fetch="https://gitlab.pixelexperience.org/android"
+           revision="refs/heads/ten" />
+
   <!-- Local Manifest -->
   <!-- Projects to be removed -->
   <remove-project name="platform_bootable_recovery" />
@@ -18,6 +22,7 @@
 
   <!-- External -->
   <project path="external/asus/stitchimage" name="PixelExperience/external_asus_stitchimage" remote="github" revision="ten-plus" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="pranaya2005" />
