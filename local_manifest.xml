@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="pranaya2005"
+           fetch="ssh://git@github.com/pranaya2005"
+           revision="refs/heads/lineage-18.1" />
+
+  <remote  name="pranaya2005-gitlab"
+           fetch="ssh://git@gitlab.com/pranaya2005"
+           revision="refs/heads/lineage-18.1"/>
+
+  <!-- Device -->
+  <project path="device/realme/mt6785-common" name="android_device_realme_mt6785-common" remote="pranaya2005" />
+  <project path="device/realme/RMX2001" name="android_device_realme_RMX2001" remote="pranaya2005" />
+  <project path="device/realme/RMX2001-kernel" name="android_device_realme_RMX2001-kernel" remote="pranaya2005" />
+  <project path="device/realme/RMX2151" name="android_device_realme_RMX2151" remote="pranaya2005" />
+  <project path="device/realme/RMX2151-kernel" name="android_device_realme_RMX2151-kernel" remote="pranaya2005" />
+
+  <!-- Vendor -->
+  <project path="vendor/realme" name="proprietary_vendor_realme" remote="pranaya2005-gitlab" />
+  <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" remote="pranaya2005-gitlab" />
+  <project path="vendor/realme-vendor" name="proprietary_vendor_realme-vendor" remote="pranaya2005-gitlab" />
+</manifest>
