@@ -13,6 +13,7 @@
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="devices" />
 
   <!-- Vendor -->
+  <project path="vendor/MiuiCamera" name="fakeyatogod/MiuiCamera" remote="github" revision="cr-8.0" />
   <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="pranaya2005" />
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="pranaya2005" />
 </manifest>
