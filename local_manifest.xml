@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="pranaya2005"
-           fetch="https://github.com/pranaya2005"
+           fetch="ssh://git@github.com/pranaya2005"
            revision="refs/heads/ten" />
 
   <remote  name="pixel-gitlab"
