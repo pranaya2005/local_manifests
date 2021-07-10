@@ -16,6 +16,7 @@
   <project path="device/realme/RMX2151-kernel" name="android_device_realme_RMX2151-kernel" remote="pranaya2005" />
 
   <!-- Vendor -->
+  <project path="vendor/extra" name="android_vendor_extra" remote="pranaya2005" />
   <project path="vendor/realme" name="proprietary_vendor_realme" remote="pranaya2005" />
   <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" remote="pranaya2005" />
   <project path="vendor/realme-vendor" name="proprietary_vendor_realme-vendor" remote="pranaya2005-gitlab" />
